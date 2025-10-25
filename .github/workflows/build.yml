@@ -2,6 +2,9 @@ name: Build worksheets
 on: push
 jobs:
   Build:
-    - uses: k-pet-group/strypify-actions/.github/actions/build-worksheets@main
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build worksheets
+        uses: k-pet-group/strypify-actions/.github/actions/build-worksheets@main
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
