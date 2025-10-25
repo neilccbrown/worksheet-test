@@ -1,0 +1,7 @@
+name: Build worksheets
+on: push
+jobs:
+  Build:
+    - uses: k-pet-group/strypify-actions/.github/actions/build-worksheets@main
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
