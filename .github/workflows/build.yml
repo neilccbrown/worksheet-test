@@ -2,4 +2,4 @@ name: Build worksheets
 on: push
 jobs:
   Build:
-    uses: k-pet-group/strypify-actions/.github/workflows/build-and-publish-worksheets@main
+    uses: k-pet-group/strypify-actions/.github/workflows/build-and-publish-worksheets.yml@main
