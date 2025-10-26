@@ -1,5 +1,8 @@
 name: Build worksheets
 on: push
+permissions:
+  contents: read
+  pages: write
 jobs:
   Build:
     uses: k-pet-group/strypify-actions/.github/workflows/build-and-publish-worksheets.yml@main
