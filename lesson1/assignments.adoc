@@ -1,6 +1,12 @@
 = Lesson 1: Assignments
+:stylesheet: ../styles.css
 
 == Initial assignments
+
+[cols="1*", options="header"]
+|===
+| Predict 1
+| Look at this program code:
 
 [strype]
 ----
@@ -9,5 +15,9 @@ x = 42
 print(x)
 ----
 
-What will be printed on the screen?
+[.subheader]
+| What will be printed on the screen?
+|
+
+|===
 
