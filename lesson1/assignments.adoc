@@ -3,7 +3,7 @@
 
 == Initial assignments
 
-[cols="1*", options="header"]
+[cols="a", options="header"]
 |===
 | Predict 1
 | Look at this program code:
