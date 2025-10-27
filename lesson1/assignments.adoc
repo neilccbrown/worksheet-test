@@ -1,6 +1,6 @@
 = Lesson 1: Assignments
-:stylesheet: ../asciidoctor.css
 :stylesheet: ../styles.css
+:linkcss:
 
 == Initial assignments
 

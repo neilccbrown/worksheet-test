@@ -1,3 +1,5 @@
+@import url("asciidoctor.css");
+
 tr.subheader {
     background-color: lightgrey;
 }
