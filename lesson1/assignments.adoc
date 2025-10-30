@@ -22,3 +22,14 @@ print(x)
 
 |===
 
+
+[blocks_to_table]
+====
+.Block 1
+[strype, open_link]
+----
+print("Hi")
+----
+====
+
+Take a screenshot of the output.
